@@ -11,8 +11,6 @@ public class Grading {
 		System.out.println("How many students do you have in your class?");
 		studentNumber = scan.nextInt();
 		System.out.println();
-		System.out.println("Please enter your first student's exam and assignment scores - ");
-		System.out.println();
 		
 		Student.getStudentScores();
 		Student.displayScores();
